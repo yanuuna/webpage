@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #061C37;
+	background: #EFF7EC;
+	background-repeat:repeat-x;
+}
+
+#header{
+	width:900px;
+	height:210px;
+	padding:7px 7px 7px 7px;
+	background-color:#FFFFFF;
+	margin-bottom:7px;
+	margin-top:20px;
+}
+
+#picture{
+	width:900px;
+	height:210px;
+	background-image:url(images/daun_header.png);
+	background-repeat:no-repeat;	
+}
+
+h1, h2, h3{
+	padding:0px;
+	margin:0px;
+	color:#2E5E22;
+}
+
+#header h1{
+	position:relative;
+	left:12px;	
+	top:100px;
+	color:#2E5E22;
+	font-size:40px;
+}
+
+#container{
+	width:914px;
+	margin:0px auto 0px auto;
+}
+
+#main{
+	display:block;
+	background-color:#FFFFFF;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+
+.isi h2{
+	color:#2E5E22;
+	margin-bottom:3px;
+}
+
+h3{
+	font-size:14px;
+	margin-bottom:3px;
+	margin-top:3px;	
+}
+
+.isi p{
+	margin-bottom:10px;
+}
+
+#isi_container{
+	width:914px;	
+
+}
+
+.isi{
+	clear:both;	
+	padding-left:5px;
+	padding-right:5px;	
+	padding-bottom:20px;	
+	padding-top:12px;
+}
+
+#button_hover{
+	background-color:#B7D8AA;
+	font: 16px Arial, Helvetica, sans-serif;	
+	color : #2E5E22;
+	border-radius:10px;
+	font-weight:bold;
+}
+
+#button_hover:hover{
+	color:#FFF;
+	border:#B7D8AA 3px solid;
+	cursor:pointer;
+}
+.isi{
+	display:block;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	width:904px;
+}
